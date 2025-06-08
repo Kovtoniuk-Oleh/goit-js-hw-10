@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-A92OCY9B.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CUZofXIC.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-wP7Ilv31.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="task-heading">Snackbar Form</h1>
+      <a class="task-list-link" href="./index.html">Go back to home</a>
+
+      <form class="snackbar-form">
+        <label class="snackbar-label">
+          Delay (ms)
+          <input
+            class="snackbar-form-label-input"
+            type="number"
+            name="delay"
+            required
+          />
+        </label>
+
+        <fieldset class="fieldset-container">
+          <legend class="fieldset-legenda">State</legend>
+          <label class="fieldset-label">
+            <input
+              class="fieldset-input"
+              type="radio"
+              name="state"
+              value="fulfilled"
+              required
+            />
+            Fulfilled
+          </label>
+          <label class="fieldset-label">
+            <input
+              class="fieldset-input"
+              type="radio"
+              name="state"
+              value="rejected"
+              required
+            />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button class="fieldset-container-button" type="submit">
+          Create notification
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
