@@ -1,0 +1,63 @@
+.snackbar-label {
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 360px;
+  display: block;
+}
+
+.snackbar-form-label-input {
+  width: 360px;
+  height: 40px;
+  display: block;
+  margin-top: 8px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  box-sizing: border-box;
+  transition: border-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+.fieldset-container {
+  width: 360px;
+  height: 78px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin: 16px 0 20px 0;
+}
+
+.fieldset-legenda {
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-left: 24px;
+}
+.fieldset-label {
+  display: inline-block;
+  padding-top: 14px;
+  padding-left: 50px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+.fieldset-container-button {
+  background: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 5px #4e75ff;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.fieldset-container-button:hover {
+  background: #6c8cff;
+  box-shadow: 0 0 8px #6c8cff;
+}
