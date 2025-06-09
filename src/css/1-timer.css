@@ -65,3 +65,10 @@ body {
   height: 352px !important;
   background: #f5f5f5 !important;
 }
+
+.dayContainer {
+  min-width: 248px !important;
+}
+.flatpickr-days {
+  width: 248px !important;
+}
